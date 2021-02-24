@@ -1,0 +1,105 @@
+.containerforms
+{
+  width:500px;
+  height:300px;
+  text-align:center;
+  background-color:rgba(52,73,94,0.5);
+  border-radius:4px;
+  margin:0 auto;
+  margin-top:100px;
+
+}
+
+/*for larger forms*/
+.containerlargerforms
+{
+  width:600px;
+  height:550px;
+  text-align:center;
+  background-color:rgba(52,73,94,0.5);
+  border-radius:4px;
+  margin:0 auto;
+  margin-top:100px;
+
+}
+
+input[type=text], input[type=date], input[type=file], select, textarea {
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=radio]{
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin: 8px 0 0 30px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #0082e6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+input[type=submit]:hover {
+  background-color: #0073e6;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+button,button[type=submit] {
+  background-color: #0082e6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+button:hover {
+  background-color: #0073e6;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
